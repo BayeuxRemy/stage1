@@ -1,0 +1,774 @@
+body {
+margin:0 auto;
+width: 100%;
+overflow-x: hidden;
+background-image: url(violet_fondhtml_repetitif.png); 
+}
+
+a {
+	font-family: ;
+	text-decoration: none;
+}
+
+
+/* PAGE PRINCIPALE */
+.haut {
+	color: #7E0C67;
+	position: relative;
+	left: 1345px ;
+	word-spacing: 10px;
+}
+.haut a {
+	color: #7E0C67;
+}
+.haut a:hover {
+	color: orange;
+	text-decoration:  underline;
+}
+
+
+.titre {
+	position: relative;
+	border: solid 1px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 90px;
+	width: 1000px;
+	left:290px;
+	top :-21px;
+	background-image: url(banière.png);
+}
+
+.titre h1 {
+	font-family: 'Comic Sans MS', cursive;
+	position: relative;
+	width: 600px;
+	left: 200px;
+	top : -25px;
+	color: #7E0C67;
+}
+
+.titre p {
+	font-family: 'Comic Sans MS', cursive;
+	position: relative;
+	color : black;
+	width: 600px;
+	left: 435px;
+	top : -55px;
+}
+.titre strong {
+	position: relative;;
+	right: -30px;
+}
+
+.menu {
+	position: relative;
+	width: 1200px;
+	left:297px;
+	top:-35px;
+}
+.menu button {
+	border: solid 1px #666;
+	border-radius : 10px;
+	background: url(menuliens.png);
+	font-size: 11px;
+}
+.menu button:hover {
+	color: white;
+	background: url(violet_fondhtml_repetitif.png);
+	cursor: pointer;
+}
+
+.coloneG {
+	position: relative;
+	background-color :  #f2ecf7;
+	width: 195px;
+	left:290px;
+	top: -50px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+.coloneG a {
+	position: relative;
+	color: #7E0C67;
+	left: 5px;
+}
+.coloneG hr {
+	margin: 0;
+}
+.coloneG a:hover {
+	color: white;
+}
+.btn:hover {
+	margin: 0;
+	width: 195px;
+	color: white;
+	background: url(violet_fondhtml_repetitif.png);
+}
+.coloneG input{
+	text-align: center;
+	background: none;
+	border: none;
+}
+.coloneG img {
+	position: relative;
+	left: 8px;
+}
+.coloneM {
+	position: relative;
+	background-color : white;
+	width: 600px;
+	left:490px;
+	top: -685px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+.titreImage {
+	position: relative;
+	left: 150px;
+	font-weight: bold;
+	color: black;
+}
+.titreImage a {
+	font-family: 'Comic Sans MS', cursive;
+	color : black;
+	margin-right: 300px;
+}
+.titreImage a:hover {
+	color : #7E0C67;
+}
+.article {
+	position: relative;
+	left: 10px;
+}
+.article a {
+	font-family: 'Comic Sans MS', cursive;
+	color: #7E0C67;
+	font-size: 20px;
+}
+.article a:hover {
+	color: black;
+	font-weight: bold;
+}
+.article p {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	position: relative;
+	font-size: 12px;
+	top: -15px;
+}
+.lireArticle {
+	position: relative;
+	text-align: right;
+	right: 15px;
+}
+.lireArticle a {
+	font-size: 15px;;
+}
+
+.coloneM img {
+	position: relative;
+	left: 15px;
+}
+.coloneM hr {
+	position: relative;
+	left:-10px;
+}
+
+.coloneD {
+	position: relative;
+	background-color :  #f2ecf7;
+	width: 195px;
+	left:1095px;
+	top: -3767px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+.information {
+	margin: 10px;
+
+}
+.sujet {
+	font-family: Impact, Charcoal, sans-serif;
+	color: #7E0C67;
+	font-size: 15px;
+}
+.date{
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	position: relative;
+	font-size: 11px;
+	top : -15px;
+}
+.information a {
+	position: relative;
+	top: -30px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #7E0C67;
+
+}
+.information a:hover {
+	color: black;
+}
+.titreM {
+	font-style: italic;
+	padding: 3px 10px 1px;
+	color: white;
+	background: #7E0C67;
+}
+.titreD {
+	margin: 10px 10px 10px 10px;
+	color: white;
+	line-height: 1;
+	padding: 3px 2px;
+	text-align: center;
+	background: #7E0C67
+}
+
+/* PAGE DE CONNEXION */
+.connexion {
+	text-align: center;
+	position: relative;
+	left: 500px;
+	top : 100px;
+	width: 500px;
+	border: 1px solid #EEE;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #666;
+}
+.connexion h1 {
+	color: #7E0C67
+}
+.connexion input {
+	background: #f8f8f9;
+	padding: 4px;
+	border: 1px inset;
+	border-radius: 3px;
+	display: inline;
+}
+.connexion a:hover {
+	color: orange;
+	text-decoration:  underline;
+}
+
+/* AUTRES PAGES DU SITE */
+
+.chemin a {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	position: relative;
+	margin-left: 5px;
+	color: #7E0C67;
+	top: 5px;
+	left: 10px;
+}
+
+.chemin a:hover {
+	color: black;
+	font-weight: bold;
+}
+.colonePage {
+
+	position: relative;
+	background-color : white;
+	width: 800px;
+	left:490px;
+	top: -685px;
+	border: solid 1px;
+	border-radius: 5px
+}
+.colonePage h2 {
+	font-family: 'Comic Sans MS', cursive;
+	position: relative;
+	color: #7E0C67;
+	left: 10px;
+
+}
+.articlePage {
+	font-family: 'Bookman Old Style', serif;
+	position: relative;
+	left: 10px;
+}
+.articlePage a {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #7E0C67;
+}
+.articlePage a:hover {
+	color: black;
+	font-weight: bold;
+}
+.articlePage p {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	position: relative;
+	top: -10px;
+	font-size: 11px;
+}
+
+.swapage {
+	text-align: center;
+}
+
+/* DIVERS */
+.rubriqueDivers {
+	position: relative;
+	left:550px;
+	top: -100px;
+}
+.rubriqueDivers h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueDivers li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueDivers a {
+	color: #7E0C67;
+}
+.rubriqueDivers a:hover {
+	color: black;
+	font-weight: bold;
+}
+/*  INFORMATION */
+.rubriqueInfo {
+	position: relative;
+	left:550px;
+	top: -280px;
+}
+.rubriqueInfo h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueInfo li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueInfo a {
+	color: #7E0C67;
+}
+.rubriqueInfo a:hover {
+	color: black;
+	font-weight: bold;
+}
+.rubriqueInfoAdministration {
+	position: relative;
+	left:550px;
+	top: -155px;
+}
+.rubriqueInfoAdministration h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueInfoAdministration li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueInfoAdministration a {
+	color: #7E0C67;
+}
+.rubriqueInfoAdministration a:hover {
+	color: black;
+	font-weight: bold;
+}
+.rubriqueInfoProjet {
+	position: relative;
+	left:550px;
+	top: -380px;
+}
+.rubriqueInfoProjet h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueInfoProjet li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueInfoProjet a {
+	color: #7E0C67;
+}
+.rubriqueInfoProjet a:hover {
+	color: black;
+	font-weight: bold;
+}
+/* AGENDA */ 
+.rubriqueAgenda {
+	position: relative;
+	left:550px;
+	top: -72px;
+}
+.rubriqueAgenda h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueAgenda li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueAgenda a {
+	color: #7E0C67;
+}
+.rubriqueAgenda a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* CDI */
+.rubriqueCDI {
+	position: relative;
+	left:550px;
+	top: -159px;
+}
+.rubriqueCDI h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueCDI li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueCDI a {
+	color: #7E0C67;
+}
+.rubriqueCDI a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.rubriqueCDI2 {
+	position: relative;
+	left:600px;
+	top: -475px;
+
+}
+.rubriqueCDI2 h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueCDI2 li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueCDI2 a {
+	color: #7E0C67;
+}
+.rubriqueCDI2 a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.rubriqueCDI3 {
+	position: relative;
+	left:350px;
+	top: -50px;
+}
+.rubriqueCDI3 h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueCDI3 li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueCDI3 a {
+	color: #7E0C67;
+}
+.rubriqueCDI3 a:hover {
+	color: black;
+	font-weight: bold;
+}
+/* ESPACE PARENTS */
+
+.rubriqueParent {
+	position: relative;
+	left:550px;
+	top: -691px;
+}
+.rubriqueParent h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueParent li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueParent a {
+	color: #7E0C67;
+}
+.rubriqueParent a:hover {
+	color: black;
+	font-weight: bold;
+}
+.rubriqueParent2 {
+	position: relative;
+	left:550px;
+	top: -600px;
+}
+.rubriqueParent2 h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueParent2 li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueParent2 a {
+	color: #7E0C67;
+}
+.rubriqueParent2 a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* VIE AU COLLEGE */
+.rubriqueCollege {
+	position: relative;
+	left:550px;
+	top: -112px;
+}
+.rubriqueCollege h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueCollege li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueCollege a {
+	color: #7E0C67;
+}
+.rubriqueCollege a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* VIE AU LYCEE */
+
+.rubriqueLycee {
+	position: relative;
+	left:550px;
+	top: -152px;
+}
+.rubriqueLycee h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueLycee li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueLycee a {
+	color: #7E0C67;
+}
+.rubriqueLycee a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/*INTERNAT*/
+
+.rubriqueLyceeInternat {
+	position: relative;
+	left:550px;
+	top: -268px;
+}
+.rubriqueLyceeInternat h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueLyceeInternat li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueLyceeInternat a {
+	color: #7E0C67;
+}
+.rubriqueLyceeInternat a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* CVL / CA */
+.rubriqueLyceeCVL {
+	position: relative;
+	left:550px;
+	top: -324px;
+}
+.rubriqueLyceeCVL h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueLyceeCVL li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueLyceeCVL a {
+	color: #7E0C67;
+}
+.rubriqueLyceeCVL a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* ENSEIGNEMENTS */
+.rubriqueEnseignement {
+	position: relative;
+	left:550px;
+	top: -271px;
+}
+.rubriqueEnseignement h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueEnseignement li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueEnseignement a {
+	color: #7E0C67;
+}
+.rubriqueEnseignement a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* BTS */ 
+
+.rubriqueEnseignementBTS {
+	position: relative;
+	left:550px;
+	top: -380px;
+}
+.rubriqueEnseignementBTS h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueEnseignementBTS li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueEnseignementBTS a {
+	color: #7E0C67;
+}
+.rubriqueEnseignementBTS a:hover {
+	color: black;
+	font-weight: bold;
+}
+/* COLLEGE */ 
+.rubriqueEnseignementCollege {
+	position: relative;
+	left:550px;
+	top: -152px;
+}
+.rubriqueEnseignementCollege h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueEnseignementCollege li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueEnseignementCollege a {
+	color: #7E0C67;
+}
+.rubriqueEnseignementCollege a:hover {
+	color: black;
+	font-weight: bold;
+}
+/* Lycee */ 
+
+.rubriqueEnseignementLycee {
+	position: relative;
+	left:530px;
+	top: -260px;
+}
+.rubriqueEnseignementLycee h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueEnseignementLycee li {
+	position: relative;
+	//right: 25px;
+	font-size: 12px;
+}
+.rubriqueEnseignementLycee p {
+	position: relative;
+	right: 25px;
+	
+}
+.rubriqueEnseignementLycee a {
+	color: #7E0C67;
+}
+.rubriqueEnseignementLycee a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* PEDAGOGIE */ 
+.rubriqueEnseignementLyceePedagogie {
+	position: relative;
+	left:530px;
+	top: -100px;
+}
+.rubriqueEnseignementLyceePedagogie h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueEnseignementLyceePedagogie li {
+	position: relative;
+	//right: 25px;
+	font-size: 12px;
+}
+.rubriqueEnseignementLyceePedagogie p {
+	position: relative;
+	right: 25px;
+	
+}
+.rubriqueEnseignementLyceePedagogie a {
+	color: #7E0C67;
+}
+.rubriqueEnseignementLyceePedagogie a:hover {
+	color: black;
+	font-weight: bold;
+}
+/* ORIENTATION */
+
+.rubriqueOrientation {
+	position: relative;
+	left:550px;
+	top: -424px;
+}
+.rubriqueOrientation h3 {
+	color: #7E0C67;
+	font-size:15px;
+}
+.rubriqueOrientation li {
+	position: relative;
+	right: 25px;
+	font-size: 12px;
+}
+.rubriqueOrientation a {
+	color: #7E0C67;
+}
+.rubriqueOrientation a:hover {
+	color: black;
+	font-weight: bold;
+}

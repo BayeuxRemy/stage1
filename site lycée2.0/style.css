@@ -1,0 +1,1022 @@
+body {
+margin:0 auto;
+padding: 0;
+width: 100%;
+height: 1200px;
+overflow-x: hidden;
+}
+
+
+a {
+	text-decoration: none;
+}
+.haut {
+	position: fixed;
+	top : -22px;
+	background: black;
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100px;
+	z-index: 10;
+}
+.haut a {
+	color : white;
+}
+.haut p {
+	position: relative;
+	top : -20px;
+}
+.titre {
+	left: 400px;
+	width: 800px;
+	height: 80px;
+	position: relative;
+	color : white;
+	text-align: center;
+	text-shadow: 0 0 5px #000;
+	font-family: 'Comic Sans MS', cursive;
+}
+.titre p {
+	position: relative;
+	top: -35px;
+}
+.menuCNX {
+	width: 300px;
+	position: relative;
+	top: -50px;
+	text-align: right;
+	right: -1200px;
+}
+.menuCNX button {
+	background: none;
+	border: solid 1px #FFF;
+	border-radius: 10px;
+}
+
+.menuCNX button:hover {
+	border : solid 1px #FFBB11;
+}
+
+.menuCNX button:active {
+	background: #FFBB11;
+}
+
+.siteUtile {
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	top : 78px;
+	background: black;
+	background-color: rgba(0,0,0,0.4);
+}
+.siteUtile a {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	position: relative;
+	height: 100%;
+	left: 215px;
+	color : white;
+	margin-left : 25px;
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 13px;
+}
+.siteUtile a:hover {
+	color : #FFBB11;
+}
+
+.choix {
+	height: 900px;
+	vertical-align: bottom;
+	margin-bottom: 0;
+}
+.choix button {
+	font-family: 'Comic Sans MS', cursive;
+	position: relative;
+	z-index: 2;
+  	display: inline-block;
+  	padding: 15px 25px;
+  	font-size: 24px;
+  	cursor: pointer;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+  	color: #fff;
+  	background-color:rgba(9,9,9,0.4);
+  	border: none;
+  	border-radius: 50px;
+  	box-shadow: 0 9px #999;
+  	width: 200px;
+}
+
+.choix button:hover {background-color: grey}
+
+.choix button:active {
+  background-color: #FFBB11;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.collège {
+position: relative;
+top : 98px;
+z-index: 1;
+margin-bottom: 0;
+}
+.choix #clg {
+	position: relative;
+	top: -240px;
+	right: 450px;	
+}
+
+.lycée {
+position: relative;
+top: -774px;
+right: -800px;
+z-index: 1;
+margin-bottom: 0;
+}
+.choix #lyc {
+	position: relative;
+	top: -1108px;	
+	right: -300px;
+}
+
+.bas
+{
+	bottom: -25px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	height: 700px;
+	background: linear-gradient( #3B3F45, #262424 );
+	margin-bottom: 0;
+}
+
+
+.info ul h3
+{
+	font-family: 'Comic Sans MS', cursive;
+	color: #FFBB11;
+}
+
+.info ul
+{
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	position: relative;
+	text-align: left;
+	color: white;
+	top: 100px;
+	right: -230px;
+}
+
+.bas li a {
+	color: white;
+}
+.bas li a:hover {
+	color: #FFBB11;
+}
+
+.bas #restauration {
+	position: relative;
+	left: 350px;
+}
+.bas #internat {
+	position: relative;
+	top: -20px;
+	right: -700px;
+}
+.bas #enseignement {
+	position: relative;
+	top: -140px;
+	right: -1100px;
+}
+.aide  {
+	z-index: 1;
+}
+
+.aide h3 {
+	font-family: 'Comic Sans MS', cursive;
+	color: #FFBB11;
+}
+.aide li {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	position: relative;
+	left: 675px;
+	text-align: left;
+	color: white;
+}
+.aide a {
+	color: white;
+}
+.aide a:hover {
+	color: #FFBB11;
+}
+
+.footer {
+	height: 125px;
+	background: linear-gradient( #262424, #000 );
+	z-index: 1;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.footer a {
+	color: white;
+}
+.footer p {
+	position: relative;
+	top: 20px;
+}
+.footer #liens {
+	position: relative;
+	top: 40px;
+}
+
+/* PAGE ACCUEIL DU LYCEE */ 
+.retourIndex {
+	position: absolute;
+	top:35px;
+	left: 10px;
+}
+#lycee {
+	background: linear-gradient( #fff, #000 );
+	overflow-y: hidden;
+}
+
+.MenuLycée {
+	background: linear-gradient(to right, #3B3F45, #fff ) ;
+	z-index: 2;
+	position: relative;
+	width: 230px;
+	top: 81px;
+}
+.MenuLycée a {
+	display:block;
+	width:190px;
+;
+}
+.MenuLycée li {
+	list-style: none;
+}
+
+.MenuLycée button {
+	font-family: 'Comic Sans MS', cursive;
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+}
+.MenuLycée hr {
+	left: -50px;
+	position: relative;
+	margin:0;
+	width: 240px;
+	color:#fff;
+}
+.MenuLycée button:hover {
+	background: linear-gradient(to right, #FFBB11, #fff ) ;
+	color: #fff;
+}
+#here {
+	background: linear-gradient(to right, #FFBB11, #fff ) ;
+	color: #000;
+}
+.corpsLycée {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	background-color: white;
+	width: 1370px;
+	height: 550px;
+	z-index: 1;
+	position: relative;
+	right: -230px;
+	top: -305px;
+	border: solid 1px #000;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top: none;
+}
+.corpsLycée #text {
+	position: relative;
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	width: 750px;
+	left: 20px;
+	top: 10px;
+}
+.corpsLycée strong {
+	color : #FFBB11;
+}
+.image_slides {
+	position: absolute;
+	left: 70px;
+	z-index: 3;
+}
+.btn_img_right {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	color: white;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	left: 600px;
+	top: 210px;
+}
+.btn_img_left {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	color: white;
+	border: none;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	left: -50px;
+	top: 210px;
+
+}
+.article_page a {
+	position: relative;
+	top: -25px;
+	font-weight: bold;
+	color: #000;
+
+}
+.article_page a:hover {
+	color: #FFBB11;
+}
+.new  {
+	width: 600px;
+	position: relative;
+	top:-39px;
+	left: 770px;
+}
+.new h4 {
+	font-family: 'Comic Sans MS', cursive;
+	background-color:#FFBB11;
+	text-align: center;
+}
+.new #colone1 {
+	width: 300px;
+}
+.new #colone2 {
+	width: 300px;
+	position: relative;
+	top: -187px;
+	right: -300px;
+}
+.important {
+	width: 600px;
+	position: relative;
+	top:-240px;
+	left: 770px;	
+}
+.important h4 {
+	font-family: 'Comic Sans MS', cursive;
+	text-align: center;
+	background-color: #FFBB11;
+}
+.important #colone1 {
+	width: 300px;
+}
+.important #colone2 {
+	width: 300px;
+	position: relative;
+	top: -187px;
+	right: -300px;
+}
+.sujet {
+	font-family: Impact, Charcoal, sans-serif;
+	color: #FFBB11;
+	font-size: 15px;
+}
+.date {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	position: relative;
+	font-size: 11px;
+	top : -15px;
+}
+
+.calendrier {
+	position: absolute;
+	top: 500px;
+	left: 15px;
+	z-index: 2;
+}
+
+#lycee .footer {
+	height: 125px;
+	background: linear-gradient( #707070  , #000 );
+	position: relative;
+	top: -292px;
+}
+
+/* PAGES DES RUBRIQUES */ 
+
+.corpsLycée h2 {
+	font-family: 'Comic Sans MS', cursive;
+	width: 800px;
+	color :#FFBB11;
+	position: absolute;
+	top: -10px;
+	left: 150px;
+	text-align: center;
+	text-shadow: 0 0 3px #000;
+}
+.corpsLycée a {
+	font-weight: bold;
+	color: #000;
+}
+.corpsLycée a:hover {
+	color: #FFBB11;
+}
+.corpsLycée #texte {
+	width: 550px;
+	text-align: center;
+	position: absolute;
+	left: 250px;
+	top: 60px;
+}
+.articleDown {
+	height: 800px;
+	width: 580px;
+	position: absolute;
+	top : -20px;
+	right: 0px;
+}
+.articleDown #colone1 {
+	width: 290px;
+}
+.articleDown #colone2 {
+	width: 240px;
+	position: absolute;
+	top: 61px;
+	right: 25px;
+}
+.articleDown h4 {
+	font-family: 'Comic Sans MS', cursive;
+	text-align: center;
+}
+.articleDown a {
+	font-weight: bold;
+	color: #000;
+}
+.articleDown a:hover {
+	color: #FFBB11;
+}
+.LesArticles {
+	display: none;
+}
+.articleDown:hover h4 {
+	background: #FFBB11;
+}
+
+.articleDown:hover .LesArticles{
+	display: block;
+}
+
+.btn_article {
+	display: block;
+	height: 480px;
+	width: 40px;
+	border-radius: 10px;
+	color: white;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+.articleDown:hover .btn_article{
+	display: none;
+}
+/* MENU DES SOUS-RUBRIQUES */
+/* affiche en hover */
+.rubriqueDown {
+	position: absolute;
+	width: 250px;
+	height: 520px;
+}
+.btn_rubrique {
+	display: block;
+	height: 30px;
+	width: 40px;
+	border-radius: 10px;
+	color: white;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	left: 10px;
+}
+#divers {
+	top: 40px;
+}
+#info {
+	top: 75px;
+}
+#agenda {
+	top: 112px;
+}
+#cdi {
+	top: 151px;
+}
+#parent {
+	top: 190px;
+}
+#vie {
+	top: 225px;
+}
+#internat {
+	top: 262px;
+}
+#enseignement {
+	top: 300px;
+}
+#orientation {
+	top: 335px;
+}
+.bouton {
+	position: relative;
+	left: 20px;
+	top: 10px;
+	color: #000
+}
+.rubriqueDown:hover .bouton{
+	color: #FFBB11;
+	font-weight: bold;
+}
+.rubriqueDown:hover .btn_rubrique{
+	display: none;
+}
+/* lieux sous-rubriques */
+#hereRubrique {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	color: #000;
+	border-radius: 5px;
+}
+/* rubriques : */
+.rubriqueDivers {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 2px;
+	display: none;
+}
+.rubriqueDown:hover .rubriqueDivers {
+    display: block;
+}
+.rubriqueDivers li {
+	list-style: none;
+}
+
+.rubriqueDivers button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueDivers button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/***********/
+.rubriqueInfo {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 38px;
+	display: none;
+}
+.rubriqueDown:hover .rubriqueInfo {
+    display: block;
+}
+.rubriqueInfo li {
+	list-style: none;
+}
+
+.rubriqueInfo button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueInfo button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+/****************/
+.rubriqueAgenda {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 75px;
+	display: none;
+}
+.rubriqueDown:hover .rubriqueAgenda {
+    display: block;
+}
+.rubriqueAgenda li {
+	list-style: none;
+}
+
+.rubriqueAgenda button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueAgenda button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/**************/
+.rubriqueCDI {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 112px;
+	display: none;
+}
+.rubriqueDown:hover .rubriqueCDI {
+    display: block;
+}
+.rubriqueCDI li {
+	list-style: none;
+}
+
+.rubriqueCDI button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueCDI button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+/***************/
+.rubriqueParents {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 150px;
+	display: none;
+}
+.rubriqueDown:hover .rubriqueParents {
+    display: block;
+}
+.rubriqueParents li {
+	list-style: none;
+}
+
+.rubriqueParents button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueParents button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+/****************/
+.rubriqueVie {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 187px;
+	display: none;
+}
+
+.rubriqueDown:hover .rubriqueVie {
+    display: block;
+}
+.rubriqueVie li {
+	list-style: none;
+}
+
+.rubriqueVie button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueVie button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+/******************/
+
+.rubriqueInternat {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 222px;
+	display: none;
+}
+
+.rubriqueDown:hover .rubriqueInternat {
+    display: block;
+}
+
+.rubriqueInternat li {
+	list-style: none;
+}
+
+.rubriqueInternat button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueInternat button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+/*******************/
+.rubriqueEnseignement {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 260px;
+	display: none;
+}
+
+.rubriqueDown:hover .rubriqueEnseignement {
+    display: block;
+}
+
+.rubriqueEnseignement li {
+	list-style: none;
+}
+
+.rubriqueEnseignement button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueEnseignement button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+/**************/
+.rubriqueOrientation {
+	background: linear-gradient(to left, #3B3F45, #fff ) ;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+	right: -10px;
+	width: 230px;
+	top: 297px;
+	display: none;
+}
+
+.rubriqueDown:hover .rubriqueOrientation {
+    display: block;
+}
+
+.rubriqueOrientation li {
+	list-style: none;
+}
+
+.rubriqueOrientation button {
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+} 
+.rubriqueOrientation button:hover {
+	background: linear-gradient(to left, #FFBB11, #fff ) ;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/* PAGE DES SOUS RUBRIQUES LYCEE */
+.articles {
+	position: absolute;
+	top : 150px;
+	right: 750px;
+}
+.articles #colone1 {
+	width: 400px;
+}
+.articles #colone2 {
+	width: 400px;
+	position: absolute;
+	top:0px;
+	right: -400px;
+}
+.articles h4 {
+	font-family: 'Comic Sans MS', cursive;
+	text-align: center;
+}
+.articles a {
+	font-weight: bold;
+	color: #000;
+}
+.articles a:hover {
+	color: #FFBB11;
+}
+.btn_page_suiv {
+	color:#FFBB11;
+	border-radius: 5px;
+	border:none;
+	position: absolute;
+	top: 350px;
+	left: 350px;
+	box-shadow: 0 4px #666;
+}
+.btn_page_prec{
+	color:#FFBB11;
+	border-radius: 5px;
+	border:none;
+	position: absolute;
+	text-align: center;
+	top: 350px;
+	left: 300px;
+	box-shadow: 0 4px #666;
+}
+.btn_page_suiv:hover {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.btn_page_prec:hover {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+/* PAGE D'ACCUEIL COLLEGE */
+#collège {
+	background: linear-gradient( #fff, #000 );
+	overflow-y: hidden;
+}
+.MenuCollège {
+
+	background: linear-gradient(to right, #3B3F45, #fff ) ;
+	z-index: 2;
+	position: relative;
+	width: 230px;
+	top: 81px;
+}
+.MenuCollège a {
+
+	display:block;
+	width:190px;
+}
+.MenuCollège li {
+	list-style: none;
+}
+
+.MenuCollège button {
+	font-family: 'Comic Sans MS', cursive;
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	height: 35px;
+	width: 250px;
+	border: none;
+	background: none;
+}
+.MenuCollège hr {
+	left: -50px;
+	position: relative;
+	margin:0;
+	width: 240px;
+	color:#fff;
+}
+.MenuCollège button:hover {
+	background: linear-gradient(to right, #FFBB11, #fff ) ;
+	color: #fff;
+}
+.corpsCollège {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	background-color: white;
+	width: 1400px;
+	height: 550px;
+	z-index: 1;
+	position: relative;
+	right: -230px;
+	top: -268px;
+	border: solid 1px #000;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top: none;
+}
+
+.corpsCollège #text {
+	position: relative;
+	width: 750px;
+	left: 20px;
+	top: 10px;
+}
+.corpsCollège h2 {
+	font-family: 'Comic Sans MS', cursive;
+	width: 800px;
+	color :#FFBB11;
+	position: absolute;
+	top: -10px;
+	left: 150px;
+	text-align: center;
+	text-shadow: 0 0 3px #000;
+}
+.corpsCollège a {
+	font-weight: bold;
+	color: #000;
+}
+
+.corpsCollège a:hover {
+	color: #FFBB11;
+}
+
+.corpsCollège #texte {
+	font-family:'MS Sans Serif', Geneva, sans-serif;
+	width: 550px;
+	text-align: center;
+	position: absolute;
+	left: 250px;
+	top: 60px;
+}
+.corpsCollège strong {
+	font-family: 'Comic Sans MS', cursive;
+	color : #FFBB11;
+}
+#collège .new {
+	top: -43px;	
+}
+#collège .important {
+	top: -245px;		
+}
+#collège .footer {
+	height: 125px;
+	background: linear-gradient( #707070  , #000 );
+	position: relative;
+	top: -255px;
+}
+#collège .rubriqueEnseignement {
+	top: 225px;
+}
+#collège .rubriqueOrientation {
+	top: 260px;
+}
